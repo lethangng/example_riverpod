@@ -1,0 +1,182 @@
+name: mobile_framework
+version: 1.5.2
+publish_to: "none"
+description: Mobile Framework.
+
+environment:
+  sdk: ">=3.0.3 <4.0.0"
+  flutter: ">=1.17.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  #  flutter_localizations: # Add this line
+  #    sdk: flutter
+
+  # ====== API PACKAGE ======
+  network_logger: ^1.0.4
+  dio: ^5.4.1
+  async: ^2.11.0
+  logger: ^2.0.1
+  pretty_dio_logger: ^1.3.1
+  get_storage: ^2.1.1
+
+  # ====== UTILITIES PACKAGE ======
+  #  dart_telegram_bot: ^1.0.0
+  firebase_crashlytics: ^4.0.3
+  stack_trace: ^1.11.0
+  firebase_core: ^3.2.0
+  flutter_local_notifications: ^17.0.0
+  firebase_messaging: ^15.0.3
+  file_picker: ^8.0.6
+  image_picker: ^1.1.2
+
+  dismissible_page: any
+  cached_network_image: ^3.3.1
+  smooth_page_indicator: any
+  mime: any
+
+  # ====== UI PACKAGE ======
+  flutter_svg: ^2.0.10+1
+  rxdart: ^0.27.3
+  property_change_notifier: ^0.3.0
+  flutter_constraintlayout: ^1.6.3-stable
+  pull_to_refresh: ^2.0.0
+  sticky_headers: ^0.3.0+2
+  flutter_slidable: ^3.0.0
+  collection: ^1.18.0
+  badges: ^3.1.2
+  diacritic: ^0.1.5
+  easy_rich_text: ^2.1.0
+  iconsax: ^0.0.8
+  flutter_swipe_action_cell: ^3.1.3
+  flutter_staggered_animations: ^1.1.1
+  equatable: ^2.0.5
+  reorderables: ^0.6.0
+  package_info_plus: ^6.0.0
+  lottie: ^3.1.0
+  flutter_gen: ^5.4.0
+  shake: ^2.2.0
+  sliver_tools: ^0.2.12
+  dotted_border: ^2.1.0
+  timelines: ^0.1.0
+  in_app_review: ^2.0.8
+  network_to_file_image: ^6.0.0
+  thumbnailer:
+    git:
+      url: https://github.com/fodilfliti/thumbnailer
+      ref: master
+  wechat_assets_picker: ^8.6.1
+  provider: any
+  extended_image: ^8.1.0
+  responsive_framework: ^1.4.0
+
+  # ====== SSO PACKAGE ======
+  url_launcher: ^6.1.7
+  isar: ^3.1.0+1
+  isar_flutter_libs: ^3.0.5
+  localstorage: ^4.0.0+1
+  webview_flutter: ^4.7.0
+  jwt_decode: ^0.3.1
+  webview_cookie_manager: ^2.0.6
+  webview_flutter_android: ^3.6.2
+  webview_flutter_wkwebview: ^3.4.0
+  path_provider: ^2.1.2
+  path: ^1.9.0
+
+  intl: ^0.19.0
+  geolocator: ^11.0.0
+  geocoding: ^3.0.0
+  sliding_up_panel: ^2.0.0+1
+  proj4dart: ^2.1.0
+  workmanager: ^0.5.2
+  queue: ^3.1.0+2
+  pull_down_button: ^0.9.3
+  flutter_isolate: ^2.0.2
+  scroll_to_index: ^3.0.1
+  permission_handler: ^11.3.0
+  photo_manager: 3.0.0-dev.4
+  photo_view: ^0.14.0
+  camera: ^0.10.5+9
+  video_player: ^2.8.3
+  share_plus: ^9.0.0
+  qr_flutter: ^4.1.0
+  flutter_riverpod: ^2.5.1
+  get_it: ^7.6.7
+  auto_route: ^8.2.0
+  dartx: ^1.2.0
+  google_fonts: ^6.1.0
+  rich_readmore: ^1.1.1
+  boxy: ^2.2.0
+  assorted_layout_widgets: ^9.0.0
+  loading_indicator: ^3.1.1
+  flutter_animate: ^4.5.0
+  infinite_scroll_pagination: ^4.0.0
+  expand_tap_area: ^1.1.1
+  extra_hittest_area: ^0.1.0
+  carousel_slider: ^4.2.1
+  money_formatter: ^0.0.5
+  numeral: ^2.0.1
+  two_dimensional_scrollables: ^0.1.2
+  pluto_grid_plus:
+    git:
+      url: https://github.com/Linkadi98/pluto_grid_plus
+      ref: master
+  dotted_dashed_line: ^0.0.3
+  flutter_portal: ^1.1.4
+  simply_mentions: ^1.0.7
+  diff_match_patch: ^0.4.1
+  rounded_background_text: ^0.5.0
+  app_settings: ^5.1.1
+  just_audio: ^0.9.36
+  number_to_vietnamese_words: ^1.0.1+1
+  flutter_app_badger: ^1.5.0
+  flutter_widget_from_html: ^0.14.11
+  timeago: ^3.6.1
+  flutter_inappwebview: ^6.0.0
+  flex_color_picker: ^3.4.1
+  flutter_native_splash: ^2.4.0
+  connectivity_plus: ^6.0.3
+  showcaseview:
+    git:
+      url: https://github.com/Linkadi98/flutter_showcaseview
+      ref: showcase-1.0
+  gap: ^3.0.1
+  restart_app: ^1.2.1
+  url_strategy: ^0.2.0
+  toastification: ^2.0.0
+  haptic_feedback: ^0.4.2
+  flutter_keyboard_visibility: ^6.0.0
+  keyboard_height_plugin: ^0.0.5
+
+  talker: ^4.2.4
+  talker_dio_logger: ^4.2.4
+  talker_flutter: ^4.2.4
+  talker_riverpod_logger: ^1.0.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  build_runner: ^2.4.8
+  flutter_gen_runner:
+  auto_route_generator: ^8.0.0
+  isar_generator: ^3.1.0+1
+  test: ^1.24.9
+
+flutter_gen:
+  output: lib/gen/
+  assets:
+    outputs:
+      style: dot-delimiter
+      package_parameter_enabled: true
+
+  integrations:
+    flutter_svg: true
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  assets:
+    - assets/icons/
+    - assets/jsons/
